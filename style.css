@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0b132b; /* Space-inspired background */
+    background-color: #0b132b;
     color: #eaeaea;
     line-height: 1.6;
     overflow-x: hidden;
@@ -11,13 +11,12 @@ body {
 
 /* Header Navigation */
 header {
-    background: #1c2541; /* Deep space-inspired dark blue */
+    background: #1c2541;
     color: white;
     padding: 15px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -50,131 +49,25 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: radial-gradient(circle at center, #0b132b, #1c2541, #3a506b); /* Space-inspired gradient */
-    color: white;
+    background: radial-gradient(circle at center, #0b132b, #1c2541, #3a506b);
     text-align: center;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
 }
 
-.hero-container {
-    max-width: 800px;
-    margin: auto;
-    z-index: 2;
-}
-
-.headshot {
-    width: 200px; /* Increased size */
-    height: 200px; /* Adjusted for proportion */
-    object-fit: cover; /* Prevent skewing */
-    border-radius: 50%; /* Circular image */
-    border: 6px solid #17c3b2; /* Teal border for a futuristic feel */
-    margin-bottom: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
-}
-
-#home h1 {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-#home p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-    line-height: 1.8;
-    font-style: italic;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.buttons button {
-    background: #17c3b2;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.buttons button:hover {
-    background: #11a897;
-    transform: translateY(-5px);
-}
-
-/* Section Styling */
-section {
-    padding: 60px 20px;
-    margin: 40px auto;
-    background: #1c2541;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    color: #eaeaea;
-    max-width: 900px;
-}
-
-h2 {
-    color: #17c3b2;
-    font-size: 2.5rem;
-    border-bottom: 3px solid #17c3b2;
-    padding-bottom: 10px;
+.hero-container img {
+    width: 200px;
+    border-radius: 50%;
     margin-bottom: 20px;
 }
 
-/* Projects Section */
-.project {
-    margin-bottom: 30px;
-    padding: 25px;
-    border: 1px solid #17c3b2;
-    border-radius: 12px;
-    background: #14213d;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+/* GitHub Icon Styling */
+.github-icon {
+    width: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.project h3 {
-    color: #17c3b2;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.project p {
-    color: #eaeaea;
-    line-height: 1.8;
-}
-
-.project:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(23, 195, 178, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Contact Section */
-#contact p a {
-    color: #17c3b2;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#contact p a:hover {
-    text-decoration: underline;
-    color: #11a897;
-}
-
-/* Footer */
-footer {
-    background: #1c2541;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 0.9rem;
+.github-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
 }
