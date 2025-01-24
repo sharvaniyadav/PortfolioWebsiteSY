@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Sharvani Yadav's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1> Welcome to My Portfolio</h1>
-    <p> This is my first website!</p>
-    <section>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am Sharvani Yadav, a passionate Aerospace Engineering student with expertise in AI and machine learning.</p>
+        <button onclick="window.open('SharvaniYadavResume2025.pdf')">View Resume</button>
+    </section>
+
+    <section id="about">
         <h2>About Me</h2>
-        <p>Hi! My name is Sharvani Yadav, and I am an aspiring engineer with a passion for AI and aerospace.</p>
+        <p>I am a final-year Aerospace Engineering student at Toronto Metropolitan University with a strong background in AI-driven research, machine learning, and innovative aerospace solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <h3>Programming</h3>
+            <p>Python, R, C++, Java, JavaScript</p>
+            <h3>Software</h3>
+            <p>CATIA, SolidWorks, ANSYS, TensorFlow, Simulink</p>
+            <h3>Certifications</h3>
+            <p>CS50 by Harvard, IBM Data Science Certificate, Google Data Analytics Certification</p>
+            <h3>Languages</h3>
+            <p>English, French, Hindi, Marathi</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Mixed-Reality Immersive Motion Simulation (MIMS) Lab</h3>
+            <p>Undergraduate Research Assistant (Sept 2023 - Present)</p>
+            <ul>
+                <li>Optimized urban air traffic using LSTM and CNNs, reducing congestion by 25%.</li>
+                <li>Developed AR/VR simulations of Toronto with GIS data.</li>
+                <li>Enhanced trajectory accuracy by 40% using RRT and A* algorithms.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Aerospace Director, MUES</h3>
+            <p>Elected by 600+ students; managed a $10,000 budget for academic initiatives.</p>
+        </div>
+        <!-- Add more experience items similarly -->
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Predictive Maintenance & Aerospace Part Disassembly</h3>
+            <p>Developed a machine learning model achieving 96% classification accuracy using Random Forest and SVM.</p>
+        </div>
+        <div class="project">
+            <h3>Automated Aircraft Skin Defect Detection</h3>
+            <p>Built a CNN model achieving 98% accuracy for identifying defects like cracks and missing screws.</p>
+        </div>
+        <div class="project">
+            <h3>3D CAD Model of B777-300ER</h3>
+            <p>Designed Air Canada’s livery using SolidWorks and rendered it in Photo View 360.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:syadavwork25@gmail.com">syadavwork25@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sharvaniyadav/">linkedin.com/in/sharvaniyadav</a></p>
+        <p>GitHub: <a href="https://github.com/yourgithub">github.com/yourgithub</a></p>
     </section>
 </body>
 </html>
-
-<section id="projects">
-    <h2>My Projects</h2>
-    <article>
-        <h3>Inverter Maintenance Predictor</h3>
-        <p>A machine learning model to predict inverter maintenance steps based on coordinate data.</p>
-        <a href="https://github.com/yourgithub/project1">View on GitHub</a>
-    </article>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sharvaniyadav/">linkedin.com/in/sharvaniyadav</a></p>
-</section>
