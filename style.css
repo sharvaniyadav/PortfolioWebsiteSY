@@ -3,14 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1a1a2e;
+    color: #f0f0f0;
 }
 
 /* Header */
 header {
-    background: #17c3b2;
-    color: white;
+    background: #16213e;
+    color: #f0f0f0;
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #17c3b2;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -46,7 +46,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #17c3b2, #2d545e);
+    background: linear-gradient(to bottom, #16213e, #0f3460);
     text-align: center;
     color: white;
 }
@@ -69,15 +69,28 @@ nav ul li a:hover {
 }
 
 .hero-container .buttons button:hover {
-    background-color: #2d545e;
+    background-color: #0f3460;
     color: white;
 }
 
-/* GitHub Icon */
+/* Project Cards */
+.project {
+    background-color: #1a1a2e;
+    border: 2px solid #17c3b2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+    position: relative;
+}
+
 .github-icon {
-    width: 20px;
-    margin-left: 10px;
-    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     transition: transform 0.3s;
 }
 
