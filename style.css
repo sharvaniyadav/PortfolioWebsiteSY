@@ -73,31 +73,12 @@ nav ul li a:hover {
     color: white;
 }
 
-/* GitHub Icon */
-.github-icon {
-    width: 20px;
-    margin-left: 10px;
-    vertical-align: middle;
-    transition: transform 0.3s;
-}
-
-.github-icon:hover {
-    transform: scale(1.2);
-}
-
 /* Project Cards */
 .project {
-    position: relative;
     background-color: white;
     border: 2px solid #17c3b2;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.github-link {
-    position: absolute;
-    top: 10px;
-    right: 10px;
 }
