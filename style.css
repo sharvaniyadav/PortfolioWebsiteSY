@@ -1,17 +1,18 @@
 /* General Styling */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #0b132b;
+    color: #eaeaea;
     margin: 0;
-    padding: 0;
-    background-color: #1a1a2e;
-    color: #f0f0f0;
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* Header */
 header {
-    background: #16213e;
-    color: #f0f0f0;
-    padding: 10px 20px;
+    background: #1c2541;
+    color: white;
+    padding: 15px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -19,35 +20,31 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #17c3b2;
+    color: white;
     text-decoration: none;
     font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #3b0197;
+    color: #17c3b2;
 }
 
 /* Hero Section */
-#home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom, #16213e, #0f3460);
+.hero-container {
     text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #1c2541, #3a506b);
     color: white;
 }
 
@@ -58,42 +55,45 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.hero-container .buttons button {
-    background-color: white;
-    color: #17c3b2;
-    border: none;
+.hero-container button {
+    background: #17c3b2;
+    color: white;
     padding: 10px 20px;
-    margin: 5px;
+    border: none;
     cursor: pointer;
+    margin: 5px;
     border-radius: 5px;
 }
 
-.hero-container .buttons button:hover {
-    background-color: #0f3460;
-    color: white;
+.hero-container button:hover {
+    background: #3a506b;
 }
 
-/* Project Cards */
+/* Project Section */
 .project {
-    background-color: #1a1a2e;
-    border: 2px solid #17c3b2;
+    background: #1c2541;
+    border: 1px solid #17c3b2;
+    border-radius: 10px;
     padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #f0f0f0;
-    position: relative;
+    margin: 10px;
+    color: #eaeaea;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.github-icon {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transition: transform 0.3s;
+.project a img {
+    width: 25px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
 }
 
-.github-icon:hover {
+.project a img:hover {
     transform: scale(1.2);
+}
+
+/* Footer */
+#contact {
+    text-align: center;
+    padding: 20px;
+    background: #0b132b;
+    color: white;
 }
