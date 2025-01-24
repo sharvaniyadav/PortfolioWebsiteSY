@@ -88,11 +88,27 @@ h2 {
 
 /* Projects Section */
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
     color: #0074D9;
+}
+
+.project p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Contact Section */
