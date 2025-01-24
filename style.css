@@ -3,15 +3,17 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #0b132b;
+    color: #eaeaea;
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-/* Header */
+/* Header Navigation */
 header {
-    background: #17c3b2;
+    background: #1c2541;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -19,8 +21,8 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -32,11 +34,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #3b0197;
+    color: #3b0197; /* Bright purple for hover effect */
 }
 
 /* Hero Section */
@@ -46,41 +49,19 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #17c3b2, #2d545e);
+    background: radial-gradient(circle at center, #0b132b, #1c2541, #3a506b);
     text-align: center;
-    color: white;
 }
 
 .hero-container img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.hero-container .buttons button {
-    background-color: white;
-    color: #17c3b2;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.hero-container .buttons button:hover {
-    background-color: #2d545e;
-    color: white;
-}
-
-/* GitHub Icon */
+/* Projects Section */
 .github-icon {
-    width: 20px;
+    width: 24px;
     margin-left: 10px;
-    vertical-align: middle;
-    transition: transform 0.3s;
 }
 
-.github-icon:hover {
-    transform: scale(1.2);
-}
