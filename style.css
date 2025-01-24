@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+/* Navigation Bar */
 header {
     background: #17c3b2;
     color: white;
@@ -73,14 +73,46 @@ nav ul li a:hover {
     color: white;
 }
 
-/* GitHub Icon */
-.github-icon {
-    width: 20px;
-    margin-left: 10px;
-    vertical-align: middle;
-    transition: transform 0.3s;
+/* Project Cards */
+#projects .project {
+    position: relative;
+    background: #192734;
+    border: 2px solid #17c3b2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.github-icon:hover {
-    transform: scale(1.2);
+#projects .project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* GitHub Button Styling */
+.github-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: radial-gradient(circle, #17c3b2, #3a506b);
+    box-shadow: 0 0 15px #17c3b2;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.github-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.github-button:hover {
+    box-shadow: 0 0 25px #3b0197;
+    transform: scale(1.1);
 }
