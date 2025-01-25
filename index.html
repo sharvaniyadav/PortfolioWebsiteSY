@@ -7,85 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-container">
+        <div class="container">
             <h1>Sharvani Yadav</h1>
-            <p>Aerospace Engineer | AI Enthusiast | Innovator</p>
-            <div class="buttons">
-                <button onclick="window.open('SharvaniYadavResume2025.pdf')">View Resume</button>
-                <button onclick="window.location.href='#contact'">Contact Me</button>
+            <p>Toronto, ON | <a href="mailto:syadavwork25@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/sharvani-yadav/" target="_blank">LinkedIn</a> | <a href="https://github.com/sharvaniyadav" target="_blank">GitHub</a></p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>Programming</h3>
+                    <p>Python, R, C++, Java, SQL, HTML, CSS, JavaScript, Scala</p>
+                </div>
+                <div>
+                    <h3>Deep Learning Frameworks</h3>
+                    <p>PyTorch, TensorFlow, Keras</p>
+                </div>
+                <div>
+                    <h3>Data & ML Libraries</h3>
+                    <p>NumPy, SciPy, Pandas, Scikit-Learn, OpenCV</p>
+                </div>
+                <div>
+                    <h3>Software</h3>
+                    <p>MATLAB, Simulink, CATIA, SolidWorks, ANSYS</p>
+                </div>
             </div>
+        </section>
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <p><strong>Toronto Metropolitan University</strong> - Bachelor’s in Aerospace Engineering (Graduating 2025)</p>
+        </section>
+        <section id="experience" class="container">
+            <h2>Experience</h2>
+            <div>
+                <h3>MIMS Lab</h3>
+                <p>Undergraduate Research Assistant | Sep 2023 - Present</p>
+                <ul>
+                    <li>Developed AI-driven optimization for urban air traffic management using LSTM and CNNs.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div>
+                <h3>Predictive Maintenance Model</h3>
+                <p>Developed ML models for maintenance stage prediction with 96% classification accuracy.</p>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:syadavwork25@gmail.com">syadavwork25@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sharvani-yadav/" target="_blank">linkedin.com/in/sharvani-yadav</a></p>
+            <p>GitHub: <a href="https://github.com/sharvaniyadav" target="_blank">github.com/sharvaniyadav</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sharvani Yadav. All rights reserved.</p>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a final-year Aerospace Engineering student at Toronto Metropolitan University with a strong background in AI-driven research, machine learning, and innovative aerospace solutions.</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <h3>Programming</h3>
-            <p>Python, R, C++, Java, JavaScript</p>
-            <h3>Software</h3>
-            <p>CATIA, SolidWorks, ANSYS, TensorFlow, Simulink</p>
-            <h3>Certifications</h3>
-            <p>CS50 by Harvard, IBM Data Science Certificate, Google Data Analytics Certification</p>
-            <h3>Languages</h3>
-            <p>English, French, Hindi, Marathi</p>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Mixed-Reality Immersive Motion Simulation (MIMS) Lab</h3>
-            <p>Undergraduate Research Assistant (Sept 2023 - Present)</p>
-            <ul>
-                <li>Optimized urban air traffic using LSTM and CNNs, reducing congestion by 25%.</li>
-                <li>Developed AR/VR simulations of Toronto with GIS data.</li>
-                <li>Enhanced trajectory accuracy by 40% using RRT and A* algorithms.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Predictive Maintenance & Aerospace Part Disassembly</h3>
-            <p>Developed a machine learning model to optimize aerospace part disassembly processes, achieving 96% classification accuracy. Improved performance by 40% using hyperparameter optimization techniques like GridSearchCV.</p>
-            <a href="https://github.com/sharvaniyadav/predictive-maintenance" target="_blank">
-                <img src="github logo.png" alt="GitHub Repository" class="github-icon">
-            </a>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:syadavwork25@gmail.com">syadavwork25@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sharvaniyadav/">linkedin.com/in/sharvaniyadav</a></p>
-        <p>GitHub: <a href="https://github.com/sharvaniyadav">github.com/sharvaniyadav</a></p>
-    </section>
+    </footer>
 </body>
 </html>
