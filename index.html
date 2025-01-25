@@ -8,18 +8,18 @@
 </head>
 <body>
     <header>
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>Hello, I'm <span>Sharvani Yadav</span></h1>
+        <div class="header-container">
+            <div class="intro">
+                <h1>Sharvani Yadav</h1>
                 <p>Aerospace Engineer | AI Enthusiast | Innovator</p>
-                <div class="social-links">
-                    <a href="mailto:syadavwork25@gmail.com">Email</a>
-                    <a href="https://www.linkedin.com/in/sharvani-yadav/" target="_blank">LinkedIn</a>
+                <div class="contact-links">
+                    <a href="mailto:syadavwork25@gmail.com">Email</a> |
+                    <a href="https://www.linkedin.com/in/sharvani-yadav/" target="_blank">LinkedIn</a> |
                     <a href="https://github.com/sharvaniyadav" target="_blank">GitHub</a>
                 </div>
-                <a href="SharvaniYadavResume2025.pdf" class="download-btn">Download CV</a>
+                <a href="SharvaniYadavResume2025.pdf" class="btn">Download CV</a>
             </div>
-            <div class="hero-image">
+            <div class="headshot-container">
                 <img src="syshot.png" alt="Sharvani Yadav Headshot">
             </div>
         </div>
@@ -28,36 +28,77 @@
         <ul>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section id="skills">
             <h2>Skills</h2>
-            <p><strong>Programming:</strong> Python, R, C++, Java, SQL, HTML, CSS, JavaScript, Scala</p>
-            <p><strong>Frameworks:</strong> PyTorch, TensorFlow, Keras</p>
-            <p><strong>Data & ML Libraries:</strong> NumPy, Pandas, Scikit-Learn, OpenCV</p>
-            <p><strong>Software:</strong> MATLAB, CATIA, SolidWorks</p>
+            <div class="skills-grid">
+                <div>
+                    <h3>Programming</h3>
+                    <p>Python, R, C++, Java, SQL, HTML, CSS, JavaScript, Scala</p>
+                </div>
+                <div>
+                    <h3>Frameworks</h3>
+                    <p>PyTorch, TensorFlow, Keras</p>
+                </div>
+                <div>
+                    <h3>ML Libraries</h3>
+                    <p>NumPy, Pandas, Scikit-Learn, OpenCV</p>
+                </div>
+                <div>
+                    <h3>Software</h3>
+                    <p>MATLAB, CATIA, SolidWorks</p>
+                </div>
+            </div>
         </section>
         <section id="education">
             <h2>Education</h2>
-            <p><strong>Toronto Metropolitan University</strong> - Bachelor’s in Aerospace Engineering (Graduating 2025)</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <h3>MIMS Lab</h3>
-            <p>Undergraduate Research Assistant | Sep 2023 - Present</p>
-            <ul>
-                <li>Optimized urban air traffic systems with LSTM and CNNs.</li>
-                <li>Created AR/VR simulations using Unreal Engine 5.</li>
-            </ul>
+            <div class="education-entry">
+                <h3>Toronto Metropolitan University</h3>
+                <p>Bachelor’s in Aerospace Engineering (Graduating 2025)</p>
+            </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <h3>Predictive Maintenance</h3>
-            <p>Developed ML models for predicting aerospace part maintenance stages with 96% accuracy.</p>
+            <div class="project">
+                <h3>Predictive Maintenance Model</h3>
+                <p>Developed machine learning models for aerospace part disassembly, achieving 96% classification accuracy through fine-tuned ensemble models (Logistic Regression, Random Forest, SVM).</p>
+                <ul>
+                    <li>Enhanced model performance by 40% with hyperparameter optimization.</li>
+                    <li>Integrated real-time predictions using OpenAI APIs and scaling.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Automated Aircraft Skin Defect Detection</h3>
+                <p>Designed a DCNN (Deep Convolutional Neural Network) for identifying aircraft skin defects (cracks, missing screws) with 98% accuracy.</p>
+                <ul>
+                    <li>Implemented real-time augmentation (rescaling, zooming) using TensorFlow’s ImageDataGenerator.</li>
+                    <li>Enhanced defect detection with optimized Conv2D layers and filters.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Urban Air Traffic Simulation</h3>
+                <p>Conducted AI-driven optimization for urban air traffic management using reinforcement learning models (LSTM, PPO, CNN).</p>
+                <ul>
+                    <li>Reduced taxi delays by 20% and congestion by 25% at major airports.</li>
+                    <li>Developed AR/VR simulations of Toronto integrating GIS data with Unreal Engine 5.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-entry">
+                <h3>MIMS Lab</h3>
+                <p>Undergraduate Research Assistant (Sept 2023 - Present)</p>
+                <ul>
+                    <li>Optimized UAV trajectory paths using RRT and A* algorithms.</li>
+                    <li>Calibrated RGB depth mapping for 3D simulations with PyTorch.</li>
+                </ul>
+            </div>
         </section>
         <section id="contact">
             <h2>Contact</h2>
