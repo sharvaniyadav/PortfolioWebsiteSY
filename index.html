@@ -3,47 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharvani Yadav Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sharvani Yadav - Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header id="hero">
-        <div class="hero-container">
-            <div class="hero-image">
-                <img src="syshot.png" alt="Sharvani Yadav" class="headshot">
-            </div>
-            <div class="hero-text">
-                <h1>Sharvani Yadav</h1>
-                <p>Aerospace Engineer | AI Enthusiast | Innovator</p>
-                <a href="SharvaniYadavResume2025.pdf" class="btn primary-btn">Download CV</a>
-                <div class="social-links">
-                    <a href="mailto:syadavwork25@gmail.com">Email</a>
-                    <a href="https://www.linkedin.com/in/sharvani-yadav/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/sharvaniyadav" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div>
+    <header class="header">
+        <h1>Sharvani Yadav</h1>
+        <p>Aerospace Engineer | Aspiring AI Researcher</p>
     </header>
 
-    <!-- Navigation -->
     <nav class="navbar">
         <ul>
+            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Rest of the page -->
     <main>
-        <!-- Sections go here -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a final-year Aerospace Engineering student at Toronto Metropolitan University, with a strong foundation in aerodynamics, AI, and machine learning. My work bridges traditional engineering principles with cutting-edge technology like urban air traffic optimization, predictive maintenance, and human-machine interface innovations.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, R, C++, Java, JavaScript</li>
+                <li><strong>Software Expertise:</strong> CATIA, SolidWorks, ANSYS, Simulink, Fusion 360, AutoCAD</li>
+                <li><strong>Certifications:</strong> CS50 (Harvard), IBM Data Science Certificate, Google Data Analytics Certification</li>
+                <li><strong>Languages:</strong> English, French, Hindi, Marathi</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Key Projects</h2>
+            <div class="project">
+                <h3>Predictive Maintenance for Aerospace Parts</h3>
+                <p>
+                    Built a machine learning model for aerospace part disassembly with 96% classification accuracy. Utilized GridSearchCV and RandomizedSearchCV for hyperparameter tuning, improving model performance by 40%.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Automated Aircraft Skin Defect Inspection</h3>
+                <p>
+                    Developed a convolutional neural network (CNN) to identify defects in aircraft skin with 98% accuracy. Enhanced detection performance using TensorFlow's Conv2D and MaxPooling2D layers.
+                </p>
+            </div>
+            <div class="project">
+                <h3>3D CAD Model of Boeing 777-300ER</h3>
+                <p>
+                    Designed and assembled a detailed 3D model of the B777-300ER using SolidWorks, including engines, doors, and wings, with optimized render times in Photo View 360.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:sharvani.yadav@example.com">sharvani.yadav@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/sharvaniyadav" target="_blank">linkedin.com/in/sharvaniyadav</a></p>
+            <p>GitHub: <a href="https://github.com/sharvaniyadav" target="_blank">github.com/sharvaniyadav</a></p>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Sharvani Yadav. All rights reserved.</p>
+    <footer class="footer">
+        <p>© 2025 Sharvani Yadav. All rights reserved.</p>
     </footer>
 </body>
 </html>
